@@ -37,29 +37,27 @@ svgContainer.append("g") // Add the X Axis
     .attr("transform", "translate(0," + height + ")")
     .call(xAxis);
 //Updating with new random value
-var updateDelay = 1000;
 //For the saake of this demo
 var Gauge;
 (function (Gauge) {
-    var gaugeHub = $.connection.d3DataHub;
+    var d3DataHub = $.connection.d3DataHub;
     $.connection.hub.logging = true;
-    $.connection.hub.start();
-    gaugeHub.client.newMessage = function (message) {
+    $.connection.hub.start().done(function () { d3DataHub.server.strartUpdatingValues(); });
+    d3DataHub.client.gaugeState = function (message) {
         changeData(message);
     };
+    var updateDelay = 1000;
     function changeData(data) {
-        dataValue[0] = getRandomNo();
-        //dataValue[0] += 10;
+        dataValue[0] = data;
         svgContainer.selectAll("rect")
             .data(dataValue)
             .transition()
-            .duration(Math.min(Math.max(300, updateDelay), 750)) //Animatin cant be longer than update value, but it should be greater than 300 for clarity
+            .duration(Math.min(Math.max(300, updateDelay), 1000)) //Animatin cant be longer than update value, but it should be greater than 300 for clarity
             .ease("linear") //default, others are bounce, elastic, circle
             .attr({
             width: function (d, i) { return d; },
         });
     }
-    Gauge.changeData = changeData;
 })(Gauge || (Gauge = {}));
 /*
 svg.selectAll("text")
@@ -96,10 +94,10 @@ class Greeter {
 
 }
 
-window.onload = () => {
+
+
     var el = document.getElementById('content');
     var greeter = new Greeter(el);
     greeter.start();
 };
 */ 
-//# sourceMappingURL=d3.js.map

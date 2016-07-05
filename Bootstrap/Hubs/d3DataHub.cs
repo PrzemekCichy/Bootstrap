@@ -4,35 +4,42 @@ using System.Linq;
 using System.Web;
 using Microsoft.AspNet.SignalR;
 using System.Threading;
+using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace Bootstrap.Hubs
 {
     public class d3DataHub : Hub
     {
-        d3DataHub()
-        {
-            StrartUpdatingValues();
-            Value = 0;
-        }
+        //  d3DataHub() {
+
+        // }
 
         public void StrartUpdatingValues()
         {
             int i = 0;
-            while (true)
+            var task = Task.Factory.StartNew(async () =>
             {
-                i+=10;
-                Thread.Sleep(1000); // in milliseconds
-                if(i > 530)
+                while (true)
                 {
-                    i = 0;
+                    i += 10;
+                    SendGaugeData(i);
+                    await Task.Delay(1000);
+                    Console.WriteLine("Send");
+                    if (i >= 530)
+                    {
+                        i = 0;
+                    }
                 }
-            }
+            }, TaskCreationOptions.LongRunning);
+
         }
+
         public int Value { get; set; }
 
         public void SendGaugeData(int message)
         {
-            Clients.All.newMessage(
+            Clients.All.gaugeState(
                     message
                 );
         }

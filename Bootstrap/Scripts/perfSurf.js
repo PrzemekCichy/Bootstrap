@@ -3,14 +3,12 @@
 
     $.connection.hub.logging = true;
     $.connection.hub.start();
-
     perfHub.client.newMessage = function (message) {
         model.addMessage(message);
     }
 
     var Model = function () {
     }
-
     Model.prototype = {
         sendMessage: function () {
             perfHub.server.send($("#message").val());
@@ -24,6 +22,7 @@
     var model = new Model;
     (function () {
         $("#sendMessage").click(model.sendMessage);
+
     })();
 
 })();
