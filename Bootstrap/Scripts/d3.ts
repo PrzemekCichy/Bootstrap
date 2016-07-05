@@ -52,7 +52,7 @@ var updateDelay = 1000;
 //For the saake of this demo
 
 module Gauge {
-    var gaugeHub = $.connection.gaugeHub;
+    var gaugeHub = $.connection.d3DataHub;
 
     $.connection.hub.logging = true;
     $.connection.hub.start();
