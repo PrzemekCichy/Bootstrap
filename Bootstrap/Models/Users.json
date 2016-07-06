@@ -1,0 +1,150 @@
+﻿{
+  "UserName1": {
+    "Balance": 1000000,
+    "Name": "Przemek Cichy",
+    "Id": 0,
+    "History": [
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 12312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 2312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      }
+    ]
+  },
+  "UserName2": {
+    "Balance": 1000000,
+    "Name": "Person 2",
+    "Id": 0,
+    "History": [
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 12312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 2312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      }
+    ]
+  },
+  "UserName3": {
+    "Balance": 1000000,
+    "Name": "Person 3",
+    "Id": 0,
+    "History": [
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 12312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 2312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      }
+    ]
+  },
+  "UserName4": {
+    "Balance": 1000000,
+    "Name": "Person 4",
+    "Id": 0,
+    "History": [
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 12312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 2312312,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 0,
+        "Date": 0,
+        "Ammount": 123121,
+        "Type": "Deposit"
+      }
+    ]
+  }
+}

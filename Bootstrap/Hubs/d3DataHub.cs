@@ -22,11 +22,11 @@ namespace Bootstrap.Hubs
             {
                 while (true)
                 {
-                    i += 10;
+                    i += 5;
                     SendGaugeData(i);
                     await Task.Delay(1000);
                     Console.WriteLine("Send");
-                    if (i >= 530)
+                    if (i >= 100)
                     {
                         i = 0;
                     }
