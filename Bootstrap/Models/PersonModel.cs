@@ -18,24 +18,23 @@ namespace Bootstrap.Models
                 return;
 
             Balance -= ammount;
-            History.Add(new History
-            {
-                Id = History.Count,
-                Date = new DateTime(),
-                Ammount = ammount,
-                Type = "Withdraw",
-            });
+            addHistory("Withdraw", ammount);
+
         }
 
         public void Deposit(float ammount)
         {
             Balance += ammount;
+            addHistory("Deposit", ammount);
+        }
+    public void addHistory(string type, float ammount)
+        {
             History.Add(new History
             {
                 Id = History.Count,
                 Date = new DateTime(),
                 Ammount = ammount,
-                Type = "Deposit",
+                Type = type,
             });
         }
 
