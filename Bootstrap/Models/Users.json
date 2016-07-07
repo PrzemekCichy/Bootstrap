@@ -1,142 +1,262 @@
-﻿{
+{
   "UserName1": {
-    "Balance": 1000000,
     "Name": "Przemek Cichy",
+    "Balance": 1400000.0,
     "Id": 0,
     "History": [
       {
-        "Ammount": 12312312,
-        "Date": "2009-04-12T20:44:55",
         "Id": 0,
+        "Date": "2009-04-12T20:44:55",
+        "Ammount": 12312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 2312312,
+        "Ammount": 2312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 5,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 6,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 7,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 8,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 9,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 10,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 11,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 12,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 13,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 14,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 15,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 16,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 17,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 18,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 19,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 20,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 21,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 22,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Deposit"
+      },
+      {
+        "Id": 23,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
+        "Type": "Withdraw"
+      },
+      {
+        "Id": 24,
+        "Date": "0001-01-01T00:00:00",
+        "Ammount": 100000.0,
         "Type": "Deposit"
       }
     ]
   },
   "UserName2": {
-    "Balance": 1000000,
     "Name": "Person 2",
+    "Balance": 1000000.0,
     "Id": 0,
     "History": [
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 12312312,
+        "Ammount": 12312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       }
     ]
   },
   "UserName3": {
-    "Balance": 1000000,
     "Name": "Person 3",
+    "Balance": 1000000.0,
     "Id": 0,
     "History": [
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 12312312,
+        "Ammount": 12312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 2312312,
+        "Ammount": 2312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       }
     ]
   },
   "UserName4": {
-    "Balance": 1000000,
     "Name": "Person 4",
+    "Balance": 1000000.0,
     "Id": 0,
     "History": [
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 12312312,
+        "Ammount": 12312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 2312312,
+        "Ammount": 2312312.0,
         "Type": "Withdraw"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       },
       {
         "Id": 0,
         "Date": "2009-04-12T20:44:55",
-        "Ammount": 123121,
+        "Ammount": 123121.0,
         "Type": "Deposit"
       }
     ]

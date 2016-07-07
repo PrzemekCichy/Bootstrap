@@ -17,6 +17,12 @@ namespace Bootstrap.Controllers
             return View(cacheController.GetUser());
         }
 
+        [HttpGet]
+        public ActionResult getTopTransactions()
+        {
+            return Json(cacheController.GetTopTransactions(), JsonRequestBehavior.AllowGet);
+        }
+
         public ActionResult Withdraw()
         {
             cacheController.Withdraw(100000);
