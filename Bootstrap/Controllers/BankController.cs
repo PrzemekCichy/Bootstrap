@@ -1,4 +1,5 @@
 ﻿using Bootstrap.Models;
+using Microsoft.Ajax.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,52 +10,23 @@ namespace Bootstrap.Controllers
 {
     public class BankController : Controller
     {
-
-        static PersonModel model = new PersonModel
-        {
-            Balance = 1010123,//I wish
-            Name = "Przemek Cichy",
-            Id = 0,
-            History = new List<History> {
-                new History
-                {
-                    Id = 0,
-                    Date = DateTime.Now,
-                    Ammount = 100,
-                    Type = "Withdraw",
-                },
-                new History
-                {
-                    Id = 1,
-                    Date = new DateTime(2016, 07, 23, 10, 22, 11),
-                    Ammount = 12241,
-                    Type = "Deposit",
-                },
-                new History
-                {
-                    Id = 2,
-                    Date = new DateTime(2016, 07, 11, 10, 22, 11),
-                    Ammount = 32321,
-                    Type = "Withdraw",
-                }
-            },
-        };
+        static CacheController cacheController = new CacheController("UserName1");
 
         public ActionResult Index()
         {
-            return View(model);
+            return View(cacheController.GetUser());
         }
 
         public ActionResult Withdraw()
         {
-            model.Withdraw(100000);
+            cacheController.Withdraw(100000);
             return RedirectToAction("Index");
 
         }
 
         public ActionResult Deposit()
         {
-            model.Deposit(31231);
+            cacheController.Deposit(100000);
             return RedirectToAction("Index");
         }
     }

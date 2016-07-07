@@ -17,7 +17,7 @@ var Gauge;
             this.bottom = bottom;
         }
         return Margin;
-    }());
+    })();
     var Gauge = (function () {
         function Gauge(containerWidth, containerHeight, margin, orientation) {
             this.multiplierConstant = 5.3;
@@ -119,7 +119,7 @@ var Gauge;
             });
         };
         return Gauge;
-    }());
+    })();
     Gauge_1.Gauge = Gauge;
     Gauge_1.gauge = new Gauge(600, 150, new Margin(50, 20, 30, 30), 1);
     Gauge_1.gauge.createRectangle().createAxis();
@@ -170,3 +170,4 @@ class Greeter {
     greeter.start();
 };
 */ 
+//# sourceMappingURL=d3.js.map
