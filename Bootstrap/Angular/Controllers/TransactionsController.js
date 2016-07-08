@@ -45,4 +45,3 @@ angular
                 : '';
         };
     }]);
-//# sourceMappingURL=TransactionsController.js.map

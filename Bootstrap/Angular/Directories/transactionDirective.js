@@ -27,4 +27,3 @@ var App;
 angular
     .module('BankApp')
     .directive('transactions', App.TransactionsContainer.Directive);
-//# sourceMappingURL=transactionDirective.js.map

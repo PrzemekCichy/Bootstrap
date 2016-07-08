@@ -63,7 +63,7 @@ namespace Bootstrap.Controllers
             this.timer = new System.Threading.Timer(x =>
             {
                 usersModel.writeJson();
-            }, null, 3000, 300);
+            }, null, 30000, 30000);
         }
     }
 }

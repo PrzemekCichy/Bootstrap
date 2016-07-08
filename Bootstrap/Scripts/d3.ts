@@ -27,7 +27,7 @@ module Gauge {
         private margin: Margin;
         private containerWidth: number;
         private containerHeight: number;
-        private multiplierConstant: number = 5.3;
+        private multiplierConstant: number;
         private dataValue = [60];
         private svgContainer: any;
 
@@ -149,9 +149,9 @@ module Gauge {
     gauge.createRectangle().createAxis()
     gauge.setUpD3();
 
-   export var gauge1 = new Gauge(600, 150, new Margin(50, 20, 30, 30), 0);
-   gauge1.createRectangle().createAxis()
-   gauge1.setUpD3();
+  // export var gauge1 = new Gauge(600, 150, new Margin(50, 20, 30, 30), 0);
+ //  gauge1.createRectangle().createAxis()
+//gauge1.setUpD3();
 }
 
 

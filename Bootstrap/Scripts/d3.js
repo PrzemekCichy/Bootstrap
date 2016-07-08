@@ -20,7 +20,6 @@ var Gauge;
     }());
     var Gauge = (function () {
         function Gauge(containerWidth, containerHeight, margin, orientation) {
-            this.multiplierConstant = 5.3;
             this.dataValue = [60];
             this.containerWidth = containerWidth;
             this.containerHeight = containerHeight;
@@ -124,9 +123,6 @@ var Gauge;
     Gauge_1.gauge = new Gauge(600, 150, new Margin(50, 20, 30, 30), 1);
     Gauge_1.gauge.createRectangle().createAxis();
     Gauge_1.gauge.setUpD3();
-    Gauge_1.gauge1 = new Gauge(600, 150, new Margin(50, 20, 30, 30), 0);
-    Gauge_1.gauge1.createRectangle().createAxis();
-    Gauge_1.gauge1.setUpD3();
 })(Gauge || (Gauge = {}));
 /*
 svg.selectAll("text")
@@ -170,4 +166,3 @@ class Greeter {
     greeter.start();
 };
 */ 
-//# sourceMappingURL=d3.js.map
