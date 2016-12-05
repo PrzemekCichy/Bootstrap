@@ -1129,6 +1129,7 @@
     <TypeScriptCompile Include="Angular\Controllers\TransactionsController.ts" />
     <TypeScriptCompile Include="Angular\Directories\transactionDirective.ts" />
     <TypeScriptCompile Include="Scripts\d3.ts" />
+    <TypeScriptCompile Include="Scripts\progressPie.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
@@ -1162,7 +1163,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>54742</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>

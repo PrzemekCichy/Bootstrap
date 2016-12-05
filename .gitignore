@@ -245,3 +245,4 @@ ModelManifest.xml
 .fake/
 /Bootstrap/Controllers/CacheController.cs
 /Bootstrap/Models/UsersModel.cs
+/Bootstrap/Angular
